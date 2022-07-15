@@ -1,3 +1,12 @@
+/* active */
+
+/* Style the active class, and buttons on mouse-over */
+ul li.active a{
+ color: black;
+ font-weight: bold;
+}
+/* end================== */
+
 .form_style{
   margin-top: 100px;
   width: 35%;
@@ -26,9 +35,61 @@
 .profile_style{
   height:auto
 }
+
+/* for profile edit image */
+
+
+.profile-pic-div{
+  margin-bottom: 30px;
+  position: relative;
+
+
+  height: 150px;
+  width: 150px;
+
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid grey;
+
+}
+
+#photo{
+  height: 100%;
+    width: 100%;
+
+}
+
+#file{
+ display: none;
+}
+
+#uploadBtn{
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  color: wheat;
+  line-height: 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+ display: none;
+
+}
+/* ============== */
+
 @media screen and (max-width: 576px) {
   .form_style2 ,.form_style{
     width: 100% !important;
   }
 }
 
+
+.my-class{
+  overflow-x: scroll;
+  padding: 10px;
+}
