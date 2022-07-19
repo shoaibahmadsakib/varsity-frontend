@@ -86,10 +86,36 @@ ul li.active a{
   .form_style2 ,.form_style{
     width: 100% !important;
   }
+
+  /* homepage */
+  .home-card{
+
+  }
+}
+
+@media screen and (max-width: 706px) {
+  
+
+  /* homepage */
+  .home-card{
+    grid-template-columns: 1fr !important;
+
+  }
 }
 
 
 .my-class{
   overflow-x: scroll;
   padding: 10px;
+}
+
+
+
+/* /////////////// */
+
+/* home style */
+.home-card{
+   padding: 100px 0px;
+   grid-gap: 50px;
+   grid-template-columns: 1fr 1fr 1fr;
 }
