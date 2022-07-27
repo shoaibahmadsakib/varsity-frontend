@@ -1,72 +1,78 @@
-console.log("salob");
+console.log("shoaib");
 
 const changeImage = document.getElementById('department_name')
 const departmentName = changeImage.innerText
 
+const mainUrl = `https://www.pust.ac.bd/includes/images/dept_img`
+const showImage = document.getElementById('show_image')
+
+const dName = ["ICE.jpg", "ETE.jpg", "EEE.jpg", "CSE.jpg", "CE.jpg", "ARCH.jpg", "URP.jpg", "PHARM.jpg", "CHEM.jpg", "MATH.jpg", "STAT.jpg", "B.%20Admin.jpg", "ECO.jpg", "BAN.jpg", "SW.jpg", "ENG.jpg", "PA.jpg", "HBS.jpg", "GE.jpg"]
+
+
 if (departmentName == "ICE") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/ICE.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[0]}`
 }
 if (departmentName == "EECE") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/ETE.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[1]}`
 }
 if (departmentName == "EEE") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/EEE.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[2]}`
 }
 if (departmentName == "CSE") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/CSE.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[3]}`
 }
 if (departmentName == "CIVIL") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/CE.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[4]}`
 }
 if (departmentName == "ARCHITECTURE") {
-    document.getElementById('show_image').style.backgroundImage = `url(	https://www.pust.ac.bd/includes/images/dept_img/ARCH.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[5]}`
 }
 if (departmentName == "URBAN") {
-    document.getElementById('show_image').style.backgroundImage = `url(	https://www.pust.ac.bd/includes/images/dept_img/URP.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[6]}`
 }
 if (departmentName == "PHYSICS") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/PHARM.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[7]}`
 }
 if (departmentName == "CHEMISTRY") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/CHEM.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[8]}`
 }
 if (departmentName == "MATHMATICS") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/MATH.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[9]}`
 }
 if (departmentName == "STATISTIC") {
-    document.getElementById('show_image').style.backgroundImage = `url(	https://www.pust.ac.bd/includes/images/dept_img/STAT.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[10]}`
 }
 if (departmentName == "PHARMACY") {
-    document.getElementById('show_image').style.backgroundImage = `url(	https://www.pust.ac.bd/includes/images/dept_img/URP.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[11]}`
 }
 if (departmentName == "BBA") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/B.%20Admin.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[12]}`
 }
 if (departmentName == "THM") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/THM.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[13]}`
 }
 
 /////////////////
 
 
 if (departmentName == "ECHONOMIC") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/ECO.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[14]}`
 }
 if (departmentName == "BANGLA") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/BAN.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[15]}`
 }
 if (departmentName == "SOCIAL WORK") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/SW.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[16]}`
 }
 if (departmentName == "ENGLISH") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/ENG.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[17]}`
 }
 if (departmentName == "PUBLIC AD") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/PA.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[18]}`
 }
 if (departmentName == "HBS") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/HBS.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[19]}`
 }
 if (departmentName == "GE") {
-    document.getElementById('show_image').style.backgroundImage = `url(https://www.pust.ac.bd/includes/images/dept_img/GE.jpg)`
+    showImage.style.backgroundImage = `url(${mainUrl}/${dName[20]}`
 }
